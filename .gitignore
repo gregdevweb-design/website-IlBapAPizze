@@ -1,0 +1,9 @@
+# Documents internes — ne jamais pousser sur le repo public
+ETUDE-MARCHE.md
+KIT-DEMARCHAGE.md
+
+# Divers
+.DS_Store
+Thumbs.db
+node_modules/
+.wrangler/
