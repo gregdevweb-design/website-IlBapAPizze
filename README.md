@@ -20,8 +20,10 @@ Site vitrine de démonstration pour **Il Bar A Pizze**, pizzeria italienne à Mo
 
 ## Déploiement
 
+Les fichiers du site sont dans `public/` (seul dossier déployé) :
+
 ```powershell
-npx wrangler pages deploy . --project-name=website-ilbapapizze
+npx wrangler pages deploy public --project-name=website-ilbapapizze
 ```
 
 ---
