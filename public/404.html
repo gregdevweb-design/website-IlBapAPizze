@@ -12,15 +12,58 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<main>
-  <section class="page-hero" style="min-height:70vh; display:flex; align-items:center;">
+
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Il Bar A Pizze — accueil">
+      <span class="brand-mark">IL BAP</span>
+      <span class="brand-sub">Il Bar A Pizze</span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="/#concept">Le concept</a>
+      <a href="/carte.html">La carte</a>
+      <a href="/#avis">Avis</a>
+      <a href="/#emporter">À emporter</a>
+      <a href="/#contact">Contact</a>
+      <a class="btn btn-primary nav-cta" href="https://www.thefork.fr/restaurant/il-bar-a-pizze-r805951" target="_blank" rel="noopener">Réserver</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="contenu">
+  <section class="page-hero error-hero">
     <div class="container">
       <p class="hero-kicker">Erreur 404</p>
       <h1>Questa pagina non esiste !</h1>
       <p class="hero-lede">La page que vous cherchez a disparu — comme une part de pizza fritta.</p>
-      <p><a class="btn btn-primary" href="/">Retour à l'accueil</a></p>
+      <p>
+        <a class="btn btn-primary" href="/">Retour à l'accueil</a>
+        <a class="btn btn-ghost-dark" href="/carte.html">Voir la carte</a>
+      </p>
     </div>
   </section>
 </main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <span class="brand-mark">IL BAP</span>
+      <p>Il Bar A Pizze — Pizzeria italienne<br>Port Marianne, Montpellier</p>
+    </div>
+    <nav aria-label="Liens de bas de page">
+      <a href="/carte.html">La carte</a>
+      <a href="/mentions-legales.html">Mentions légales</a>
+      <a href="/confidentialite.html">Confidentialité</a>
+    </nav>
+    <p class="footer-note">Site démo réalisé par Grégoire Fontaine — <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
 </body>
 </html>

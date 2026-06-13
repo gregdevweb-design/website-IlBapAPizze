@@ -12,26 +12,80 @@
   <meta property="og:title" content="La Carte — Il Bar A Pizze, Montpellier">
   <meta property="og:description" content="Pizzas sur pierre, pizza fritta, burrata, pâtes fraîches et dolci faits maison.">
   <meta property="og:url" content="https://website-ilbapapizze.pages.dev/carte.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La Carte — Il Bar A Pizze, Montpellier">
+  <meta name="twitter:description" content="Pizzas sur pierre, pizza fritta, burrata, pâtes fraîches et dolci faits maison.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Carte — Il Bar A Pizze",
+    "inLanguage": "fr",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Antipasti",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Burrata nature", "description": "Burrata crémeuse des Pouilles, huile d'olive, fleur de sel.", "offers": { "@type": "Offer", "price": "9.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Burrata fumée", "description": "Délicatement fumée, tomates confites.", "offers": { "@type": "Offer", "price": "10.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Burrata à la truffe", "description": "Crème de truffe d'été, roquette.", "offers": { "@type": "Offer", "price": "11.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Planche d'antipasti maison", "description": "Charcuteries italiennes, légumes marinés, focaccia.", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Arancini", "description": "Croquants au cœur fondant, sauce tomate au basilic.", "offers": { "@type": "Offer", "price": "8.50", "priceCurrency": "EUR" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Le Pizze",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Margherita", "description": "Tomate San Marzano, fior di latte, basilic frais.", "offers": { "@type": "Offer", "price": "10.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Regina", "description": "Tomate, mozzarella, jambon blanc italien, champignons frais.", "offers": { "@type": "Offer", "price": "12.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Calzone", "description": "Pliée et dorée sur pierre, jambon, ricotta, mozzarella.", "offers": { "@type": "Offer", "price": "13.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pesto e Burrata", "description": "Crème de pesto, burrata entière, tomates cerises, pignons.", "offers": { "@type": "Offer", "price": "14.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pizza Fritta", "description": "La spécialité de la maison — pâte frite à la napolitaine puis garnie.", "offers": { "@type": "Offer", "price": "14.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Tartufo", "description": "Crème de truffe, mozzarella, champignons, jambon de Parme.", "offers": { "@type": "Offer", "price": "15.50", "priceCurrency": "EUR" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "La Pasta",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Spaghetti Carbonara", "description": "Guanciale, pecorino, œuf — sans crème.", "offers": { "@type": "Offer", "price": "13.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Ravioli del giorno", "description": "Ravioles fraîches selon le marché, beurre de sauge.", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "I Dolci",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Tiramisu maison", "description": "Monté minute, mascarpone onctueux, café serré.", "offers": { "@type": "Offer", "price": "7.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Parfait glacé", "description": "Le dessert frais de la maison.", "offers": { "@type": "Offer", "price": "7.00", "priceCurrency": "EUR" } }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Il Bar A Pizze — accueil">
+    <a class="brand" href="/" aria-label="Il Bar A Pizze — accueil">
       <span class="brand-mark">IL BAP</span>
       <span class="brand-sub">Il Bar A Pizze</span>
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-      <a href="index.html#concept">Le concept</a>
-      <a href="carte.html" aria-current="page">La carte</a>
-      <a href="index.html#avis">Avis</a>
-      <a href="index.html#emporter">À emporter</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="/#concept">Le concept</a>
+      <a href="/carte.html" aria-current="page">La carte</a>
+      <a href="/#avis">Avis</a>
+      <a href="/#emporter">À emporter</a>
+      <a href="/#contact">Contact</a>
       <a class="btn btn-primary nav-cta" href="https://www.thefork.fr/restaurant/il-bar-a-pizze-r805951" target="_blank" rel="noopener">Réserver</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
@@ -40,7 +94,7 @@
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="page-hero">
     <div class="container">
       <p class="hero-kicker">Fait maison · Produits frais · Cuisson sur pierre</p>
@@ -70,7 +124,7 @@
           <div class="menu-item"><dt>Regina <span class="dots"></span><span class="menu-price">12,50 €</span></dt><dd>Tomate, mozzarella, jambon blanc italien, champignons frais.</dd></div>
           <div class="menu-item"><dt>Calzone <span class="dots"></span><span class="menu-price">13,50 €</span></dt><dd>Pliée et dorée sur pierre, jambon, ricotta, mozzarella.</dd></div>
           <div class="menu-item"><dt>Pesto e Burrata <span class="dots"></span><span class="menu-price">14,50 €</span></dt><dd>Crème de pesto, burrata entière, tomates cerises, pignons.</dd></div>
-          <div class="menu-item star"><dt>Pizza Fritta <span class="dots"></span><span class="menu-price">14,50 €</span></dt><dd>★ La spécialité de la maison — pâte frite à la napolitaine puis garnie.</dd></div>
+          <div class="menu-item star"><dt>Pizza Fritta <span class="dots"></span><span class="menu-price">14,50 €</span></dt><dd><span aria-hidden="true">★ </span>La spécialité de la maison — pâte frite à la napolitaine puis garnie.</dd></div>
           <div class="menu-item"><dt>Tartufo <span class="dots"></span><span class="menu-price">15,50 €</span></dt><dd>Crème de truffe, mozzarella, champignons, jambon de Parme.</dd></div>
         </dl>
       </div>
@@ -91,7 +145,7 @@
         </dl>
       </div>
 
-      <p class="fine-print center">Carte d'illustration réalisée pour la démo à partir des plats emblématiques du restaurant — la carte complète et les prix réels seront intégrés avec l'équipe.</p>
+      <p class="fine-print center">Carte d'illustration réalisée pour la démo à partir des plats emblématiques du restaurant — la carte complète, les prix réels et l'information sur les allergènes seront intégrés avec l'équipe.</p>
 
       <div class="center cta-row">
         <a class="btn btn-primary" href="https://www.thefork.fr/restaurant/il-bar-a-pizze-r805951" target="_blank" rel="noopener">Réserver une table</a>
@@ -108,14 +162,14 @@
       <p>Il Bar A Pizze — Pizzeria italienne<br>Port Marianne, Montpellier</p>
     </div>
     <nav aria-label="Liens de bas de page">
-      <a href="carte.html">La carte</a>
-      <a href="mentions-legales.html">Mentions légales</a>
-      <a href="confidentialite.html">Confidentialité</a>
+      <a href="/carte.html">La carte</a>
+      <a href="/mentions-legales.html">Mentions légales</a>
+      <a href="/confidentialite.html">Confidentialité</a>
     </nav>
     <p class="footer-note">Site démo réalisé par Grégoire Fontaine — <span id="year"></span></p>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

@@ -7,25 +7,28 @@
   <meta name="description" content="Politique de confidentialité et protection des données du site Il Bar A Pizze, Montpellier.">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="https://website-ilbapapizze.pages.dev/confidentialite.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Il Bar A Pizze — accueil">
+    <a class="brand" href="/" aria-label="Il Bar A Pizze — accueil">
       <span class="brand-mark">IL BAP</span>
       <span class="brand-sub">Il Bar A Pizze</span>
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-      <a href="index.html#concept">Le concept</a>
-      <a href="carte.html">La carte</a>
-      <a href="index.html#avis">Avis</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="/#concept">Le concept</a>
+      <a href="/carte.html">La carte</a>
+      <a href="/#avis">Avis</a>
+      <a href="/#emporter">À emporter</a>
+      <a href="/#contact">Contact</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
       <span></span><span></span><span></span>
@@ -33,37 +36,53 @@
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="section">
     <div class="container legal">
       <h1>Politique de confidentialité</h1>
 
-      <h2>Données collectées</h2>
-      <p>Ce site est un site vitrine : il ne comporte <strong>aucun formulaire</strong> et ne
-      collecte <strong>aucune donnée personnelle</strong> directement. Aucun cookie de suivi
-      ou de mesure d'audience n'est déposé par ce site.</p>
+      <h2>Données collectées par le site</h2>
+      <p>Ce site est un site vitrine : il ne comporte <strong>aucun formulaire</strong>, ne
+      dépose <strong>aucun cookie</strong> de mesure d'audience ou de publicité, et ne crée
+      aucun compte. Le restaurant n'enregistre donc, via ce site, aucune donnée que vous
+      saisiriez.</p>
+      <p>En revanche, comme tout site web, la simple consultation des pages transmet
+      techniquement votre adresse IP aux serveurs qui hébergent et délivrent le contenu
+      (voir « Services tiers » ci-dessous). Cette transmission est nécessaire à l'affichage
+      des pages et n'est pas utilisée par le restaurant à des fins de suivi.</p>
 
       <h2>Services tiers</h2>
-      <p>Le site contient des liens vers des services externes : TheFork (réservation),
-      Google Maps (itinéraire), Instagram. En cliquant sur ces liens, vous quittez ce site
-      et les politiques de confidentialité de ces services s'appliquent. Les polices de
-      caractères sont chargées depuis Google Fonts, qui peut enregistrer votre adresse IP
-      lors du chargement.</p>
+      <p>Pour fonctionner, le site sollicite quelques services externes, qui reçoivent à ce
+      titre votre adresse IP :</p>
+      <ul class="checklist">
+        <li><strong>Cloudflare</strong> (hébergement et diffusion des pages) ;</li>
+        <li><strong>Google Fonts</strong> (chargement des polices de caractères) — Google
+        peut enregistrer votre adresse IP lors de ce chargement ;</li>
+        <li>le <strong>réseau de diffusion d'images</strong> utilisé pour les photos du
+        restaurant.</li>
+      </ul>
+      <p>Le site contient par ailleurs des <strong>liens</strong> vers des services externes
+      (TheFork pour la réservation, Google Maps pour l'itinéraire, Instagram). En cliquant sur
+      ces liens, vous quittez ce site et les politiques de confidentialité propres à ces
+      services s'appliquent.</p>
 
       <h2>Réservations et commandes</h2>
       <p>Les réservations par téléphone et les commandes à emporter ne donnent lieu à aucun
-      enregistrement de données sur ce site.</p>
+      enregistrement de données sur ce site. Une réservation effectuée via TheFork est régie
+      par la politique de confidentialité de TheFork.</p>
 
       <h2>Vos droits</h2>
       <p>Conformément au Règlement général sur la protection des données (RGPD) et à la loi
       Informatique et Libertés, vous disposez d'un droit d'accès, de rectification et de
       suppression des données vous concernant. Pour toute question :
       <a href="tel:+33607396165">06 07 39 61 65</a>, ou auprès de l'éditeur du site
-      (voir <a href="mentions-legales.html">mentions légales</a>). Vous pouvez introduire
+      (voir <a href="/mentions-legales.html">mentions légales</a>). Vous pouvez introduire
       une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
 
       <p class="fine-print">Site de démonstration — cette politique sera finalisée avec
-      l'établissement avant mise en production.</p>
+      l'établissement avant mise en production (notamment si un outil de mesure d'audience ou
+      un module de réservation/commande en propre est ajouté, ce qui nécessiterait un bandeau
+      de consentement).</p>
     </div>
   </section>
 </main>
@@ -75,14 +94,14 @@
       <p>Il Bar A Pizze — Pizzeria italienne<br>Port Marianne, Montpellier</p>
     </div>
     <nav aria-label="Liens de bas de page">
-      <a href="carte.html">La carte</a>
-      <a href="mentions-legales.html">Mentions légales</a>
-      <a href="confidentialite.html">Confidentialité</a>
+      <a href="/carte.html">La carte</a>
+      <a href="/mentions-legales.html">Mentions légales</a>
+      <a href="/confidentialite.html">Confidentialité</a>
     </nav>
     <p class="footer-note">Site démo réalisé par Grégoire Fontaine — <span id="year"></span></p>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
